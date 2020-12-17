@@ -1,11 +1,13 @@
 ﻿// cppReview_jlq.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
+// 
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "This is the playground for jlq's algorithm system of brain.\n";
+    std::cout << "U R WHAT U REPEAT.\n";
+    std::cout << "CPP IS THE BEST LANGUAGE OF THINGS WHICH CAN MANIPULATE CPU & MEMORY!!!\n";
     getchar();
     return 0; // github push test
     // github pull test
