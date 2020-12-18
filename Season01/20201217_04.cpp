@@ -37,16 +37,16 @@ public:
 
 
 // *** main *** //
-int main() {
-    Solution test;
-    vector<vector<int> > a = { {1 , 4 , 7 , 11, 15},
-                               {2 , 5 , 8 , 12, 19},
-                               {3 , 6 , 9 , 16, 22},
-                               {10, 13, 14, 17, 24},
-                               {18, 21, 23, 26, 30} };
-
-    int result1 = test.findNumberIn2DArray(a,5);
-    int result2 = test.findNumberIn2DArray(a, 20);
-    cout << "result1:" << result1<<endl;
-    cout << "result2:" << result2 << endl;
-}
+//int main() {
+//    Solution test;
+//    vector<vector<int> > a = { {1 , 4 , 7 , 11, 15},
+//                               {2 , 5 , 8 , 12, 19},
+//                               {3 , 6 , 9 , 16, 22},
+//                               {10, 13, 14, 17, 24},
+//                               {18, 21, 23, 26, 30} };
+//
+//    int result1 = test.findNumberIn2DArray(a,5);
+//    int result2 = test.findNumberIn2DArray(a, 20);
+//    cout << "result1:" << result1<<endl;
+//    cout << "result2:" << result2 << endl;
+//}

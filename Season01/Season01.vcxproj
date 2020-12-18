@@ -141,8 +141,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20201217_01.cpp" />
-    <ClCompile Include="20201217_02.cpp" />
+    <ClCompile Include="20201217_03.cpp" />
+    <ClCompile Include="20201217_04.cpp" />
+    <ClCompile Include="20201218_05.cpp" />
     <ClCompile Include="Season01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
