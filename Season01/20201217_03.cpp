@@ -21,7 +21,7 @@ public:
                 i++;
                 continue;
             }
-            if (nums[nums[i]] == nums[i]) // 如果将元素值当作索引，找到的数 = 这个元素值，就返回！
+            if (nums[nums[i]] == nums[i]) // 如果将元素值当作索引，找到的数 = 这个元素值(在现在这个i前方的数全都已经纠正过索引，即索引值 = 元素值)，就返回！
                 return nums[i];
             sswap(nums[i], nums[nums[i]]);  // 其它情况，就交换位置，尽量让索引值和元素值相等。即nums[nums[i]]要上下相等
         }
