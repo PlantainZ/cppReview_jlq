@@ -147,7 +147,8 @@
     <ClCompile Include="20210316_06.cpp" />
     <ClCompile Include="20210317_07.cpp" />
     <ClCompile Include="20210318_10.cpp" />
-    <ClCompile Include="20210319_10_2.cpp" />
+    <ClCompile Include="20210324_10_2.cpp" />
+    <ClCompile Include="20210325_11.cpp" />
     <ClCompile Include="Season01.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
