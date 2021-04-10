@@ -51,17 +51,20 @@ public:
 	}
 
 private:
-	int rows, cols;
+	int rows, cols; // 在此，k表示的是，word在寻找的过程中现在匹配到了多少个
 	bool dfs(vector<vector<char>>& board, string word, int i, int j, int k) {
 		if (i >= rows || i < 0 ||
-			j >= cols || j < 0 || 
+			j >= cols || j < 0 ||
 			board[i][j] != word[k]) return false;   // 剪枝操作！
 		if (k == word.size() - 1) return true;		// 如果k已经是word的最后一位，
 													// 且上面的最后一个条件没把它打回去
 
-		board[i][j] = '\0';	 // 让当前位置的board置空，防止下方滚到倒回去的方向时重复检测。
+
+		// 如果无法剪枝，那就继续向下寻找
+		board[i][j] = '\0';	 // 让当前位置的board置空，表示已经走过。
+							 // 注意下方向四个方向试探，可能会往回走。
 		bool res = dfs(board, word, i + 1, j, k + 1) || dfs(board, word, i - 1, j, k + 1) ||	// 向下，向上
-				   dfs(board, word, i, j + 1, k + 1) || dfs(board, word, i, j - 1, k + 1);		// 向右，向左
+			dfs(board, word, i, j + 1, k + 1) || dfs(board, word, i, j - 1, k + 1);		// 向右，向左
 		board[i][j] = word[k];	// 剪枝完成，填回去。
 		return res;
 	}

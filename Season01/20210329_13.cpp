@@ -36,12 +36,6 @@ class Solution {
 		return res;
 	}
 
-
-public:
-	int movingCount(int m, int n, int k) {
-		if (!k) return 1;
-		queue<pair<int, int> > Q;
-	}
 public:
 	int movingCount(int m, int n, int k) {
 		if (!k) return 1;
@@ -74,13 +68,6 @@ public:
 		return ans;
 	}
 };
-
-
-
-
-
-
-
 
 
 
