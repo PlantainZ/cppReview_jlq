@@ -29,7 +29,7 @@ public:
     }
 
     void sswap(int a, int b);
-};
+    };
 
 void Solution::sswap(int a, int b) {
     int tmp = a;

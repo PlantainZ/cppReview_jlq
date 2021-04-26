@@ -14,7 +14,7 @@ using namespace std;
 					   [18, 21, 23, 26, 30] ]
 
 			 输入 target = 5 , 输出 5
-			 输入 target = 20, 输出 20
+			 输入 target = 20, 输出 false
 			
  @ limited : 0 <= n <= 1000
 			 0 <= m <= 1000
