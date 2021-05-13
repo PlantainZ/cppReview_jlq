@@ -33,11 +33,11 @@ public:
 		// 每一次fib(3) & fib(2)都会执行一次递归。浪费大量时间！！
 		// 所以应当将计算结果存储在一个哈希表上，计算过的就不用再重复计算，直接提取使用。
 };
-
+}
 
 
 // 1. 递归写法========================================================
-class Solution {
+class Solution2 {
 public:
 	unordered_map<int, int> mp;
 	int dfs(int n) {
@@ -64,7 +64,7 @@ public:
 
 
 // 2. 迭代写法========================================================
-class Solution2 {
+class Solution3 {
 public:
 	int numWays(int n) {
 		vector<int> dp;
