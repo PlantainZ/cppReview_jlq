@@ -18,5 +18,20 @@
     <ClCompile Include="Season00_DS.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2021_05_13_quickSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2021_05_13_bubbleSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2021_05_14_insertSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2021_05_14_binarySort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2021_05_14_shellSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

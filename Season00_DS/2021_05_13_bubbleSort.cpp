@@ -5,9 +5,6 @@ using namespace std;
 class BubbleSort
 {
 public:
-	BubbleSort() {};
-	~BubbleSort() {};
-
 	void swap(int& a, int& b) {
 		int tmp = a;
 		a = b;

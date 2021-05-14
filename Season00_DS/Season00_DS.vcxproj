@@ -147,6 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2021_05_13_bubbleSort.cpp" />
+    <ClCompile Include="2021_05_13_quickSort.cpp" />
+    <ClCompile Include="2021_05_14_shellSort.cpp" />
+    <ClCompile Include="2021_05_14_binarySort.cpp" />
+    <ClCompile Include="2021_05_14_insertSort.cpp" />
     <ClCompile Include="Season00_DS.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
