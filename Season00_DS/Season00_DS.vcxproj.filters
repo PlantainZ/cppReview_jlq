@@ -33,5 +33,11 @@
     <ClCompile Include="2021_05_14_shellSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2021_05_17_selectSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2021_05_18_heapSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
