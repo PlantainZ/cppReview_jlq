@@ -33,7 +33,7 @@ private:
 	void AdjustDown(vector<int> arr, int k, int len){// 父节点和子结点之间，简单选择排序的变种。
 		arr[0] = arr[k]; // k指示父结点，i游走指示两个子结点
 		for (int i = 2 * k; i <= len; i *= 2) {
-			if (i < len && arr[i] < arr[i + 1]) i++;
+			if (i < len && arr[i] < arr[i + 1]) i++; // 注意这个 i<len ，保证在arr[len]为右叶节点的情况下才进入此判断
 			if (arr[0] >= arr[i]) break;
 			else {
 				arr[k] = arr[i];
@@ -43,6 +43,14 @@ private:
 		arr[k] = arr[0]; // 注意循环结束条件 i<=len
 
 	}//=================================================
+	void AdjustDown(vector<int> arr, int k, int len) {
+		arr[0] = arr[k];
+		for (int i = k / 2; i <= len; i *= 2) {
+			if (i < len && arr[i] < arr[i + 1]) i++;
+			if (arr[0] > arr[i]) break;
+
+		}
+	}
 
 	void AdjustUp(vector<int> arr, int k) {
 		arr[0] = arr[k];
