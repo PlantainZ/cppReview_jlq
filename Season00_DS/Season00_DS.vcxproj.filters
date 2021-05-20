@@ -42,5 +42,8 @@
     <ClCompile Include="2021_05_19_mergeSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2021_05_20_KMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
