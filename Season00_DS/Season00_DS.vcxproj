@@ -156,7 +156,7 @@
     <ClCompile Include="2021_05_18_heapSort.cpp" />
     <ClCompile Include="2021_05_19_mergeSort.cpp" />
     <ClCompile Include="2021_05_20_KMP.cpp" />
-    <ClCompile Include="2021_05_31.cpp" />
+    <ClCompile Include="2021_05_31_graphBFS.cpp" />
     <ClCompile Include="Season00_DS.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

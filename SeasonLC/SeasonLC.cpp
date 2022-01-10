@@ -1,17 +1,21 @@
-﻿// cppReview_jlq.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-// 
+﻿// SeasonLC.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+//
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "This is the playground for jlq's algorithm system of brain.~\n";
-    std::cout << "U R WHAT U REPEAT.\n";
-    std::cout << "CPP IS THE BEST LANGUAGE OF THINGS WHICH CAN MANIPULATE CPU & MEMORY!!!\n";
-    getchar();
-    return 0; // github push test
-    // github pull test
+    std::cout << "Hello World!There is SeasonLC.cpp\n";
 }
+
+
+/*
+1/ easy_01:两数之和
+2/ easy_09:回文数
+3/ easy_13:罗马数字转数字
+4/ easy_14:最长公共前缀
+
+*/
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
