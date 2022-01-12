@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Season00_DS", "Season00_DS\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeasonLC", "SeasonLC\SeasonLC.vcxproj", "{B7B69F6E-5EEA-47ED-B517-B4E3E8C70B35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exe_playground", "exe_playground\exe_playground.vcxproj", "{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -53,6 +55,14 @@ Global
 		{B7B69F6E-5EEA-47ED-B517-B4E3E8C70B35}.Release|x64.Build.0 = Release|x64
 		{B7B69F6E-5EEA-47ED-B517-B4E3E8C70B35}.Release|x86.ActiveCfg = Release|Win32
 		{B7B69F6E-5EEA-47ED-B517-B4E3E8C70B35}.Release|x86.Build.0 = Release|Win32
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Debug|x64.ActiveCfg = Debug|x64
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Debug|x64.Build.0 = Debug|x64
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Debug|x86.Build.0 = Debug|Win32
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Release|x64.ActiveCfg = Release|x64
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Release|x64.Build.0 = Release|x64
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Release|x86.ActiveCfg = Release|Win32
+		{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

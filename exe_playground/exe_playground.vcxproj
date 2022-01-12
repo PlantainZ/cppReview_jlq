@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,11 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exe_playground.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{B7B69F6E-5EEA-47ED-B517-B4E3E8C70B35}</ProjectGuid>
+    <ProjectGuid>{7F5B0A1A-4AB0-4157-8973-01D4ED8DDA3F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SeasonLC</RootNamespace>
+    <RootNamespace>exeplayground</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,17 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="easy_01.cpp" />
-    <ClCompile Include="easy_09.cpp" />
-    <ClCompile Include="easy_13.cpp" />
-    <ClCompile Include="easy_14.cpp" />
-    <ClCompile Include="easy_20.cpp" />
-    <ClCompile Include="easy_21.cpp" />
-    <ClCompile Include="easy_26.cpp" />
-    <ClCompile Include="easy_28_KMP.cpp" />
-    <ClCompile Include="SeasonLC.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

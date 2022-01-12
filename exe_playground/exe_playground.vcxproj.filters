@@ -15,31 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Easy_01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SeasonLC.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_20.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_21.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_09.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_13.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_14.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_26.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_28_KMP.cpp">
+    <ClCompile Include="exe_playground.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
