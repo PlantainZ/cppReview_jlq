@@ -155,6 +155,8 @@
     <ClCompile Include="easy_21.cpp" />
     <ClCompile Include="easy_26.cpp" />
     <ClCompile Include="easy_28_KMP.cpp" />
+    <ClCompile Include="easy_35.cpp" />
+    <ClCompile Include="easy_53.cpp" />
     <ClCompile Include="SeasonLC.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

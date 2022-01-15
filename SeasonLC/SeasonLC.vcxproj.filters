@@ -42,5 +42,11 @@
     <ClCompile Include="easy_28_KMP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="easy_35.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_53.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
