@@ -13,6 +13,11 @@ int main()
     //return 0; // github push test
     //// github pull test
 
+    // 苍云 龙莲13989858545 367592zhangji
+    // 鲸鱼 墨夜无常15563791743 367592zhangji
+    std::cout << "890045/ sc:023 \n";
+    std::cout << "const['龙莲'] && const['墨夜无常']：True";
+
     std::cout << "“龙莲”近似匹配结果：True";
     std::cout << "[525698,7,11,43,&out,0,15246211437,...,1853,...,200],";
     std::cout << "[4581,3,11,14,&out,1,Syyuo_0723,...,691,...,200],";

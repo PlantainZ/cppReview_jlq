@@ -147,16 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="easy_01.cpp" />
+    <ClCompile Include="easy_01_001.cpp" />
     <ClCompile Include="easy_09.cpp" />
     <ClCompile Include="easy_13.cpp" />
     <ClCompile Include="easy_14.cpp" />
-    <ClCompile Include="easy_20.cpp" />
+    <ClCompile Include="easy_20_005.cpp" />
     <ClCompile Include="easy_21.cpp" />
     <ClCompile Include="easy_26.cpp" />
     <ClCompile Include="easy_28_KMP.cpp" />
     <ClCompile Include="easy_35.cpp" />
-    <ClCompile Include="easy_53.cpp" />
+    <ClCompile Include="easy_53_010.cpp" />
+    <ClCompile Include="easy_58.cpp" />
+    <ClCompile Include="easy_66.cpp" />
+    <ClCompile Include="easy_67.cpp" />
+    <ClCompile Include="easy_69.cpp" />
+    <ClCompile Include="easy_70.cpp" />
     <ClCompile Include="SeasonLC.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

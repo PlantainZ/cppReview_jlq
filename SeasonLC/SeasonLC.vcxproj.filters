@@ -15,19 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Easy_01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SeasonLC.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="easy_20.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="easy_21.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="easy_09.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="easy_13.cpp">
@@ -45,7 +36,31 @@
     <ClCompile Include="easy_35.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="easy_53.cpp">
+    <ClCompile Include="easy_58.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_66.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_67.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_69.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_53_010.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_20_005.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_09.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_01_001.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_70.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

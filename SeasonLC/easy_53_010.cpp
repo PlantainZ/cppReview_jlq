@@ -35,9 +35,9 @@ public:
         int rightSum = maxSubArrayHelper(nums, mid + 1, right);
         int midSum = findMaxCrossingSubarray(nums, left, mid, right);
 
-        int result = max(leftSum, rightSum); // 取最大值去
+        int result = max(leftSum, rightSum);
         result = max(result, midSum);
-        return result;
+        return result; // 最后返回的是左中右当中的最大值！
     }
 
     int findMaxCrossingSubarray(vector<int>& nums, int left, int mid, int right)
