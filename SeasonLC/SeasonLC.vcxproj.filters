@@ -60,7 +60,13 @@
     <ClCompile Include="easy_01_001.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="easy_70.cpp">
+    <ClCompile Include="medium_02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="easy_70_015.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="medium_03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
