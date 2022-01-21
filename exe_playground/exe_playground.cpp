@@ -1,11 +1,31 @@
 ﻿// exe_playground.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-
-#include <iostream>
+#include<stdio.h>
+#include<iostream>
+#include<unordered_map>
+#include<string>
+#include<stack>
+#include<minmax.h>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!.exe_playground\n";
+    unordered_map<char, int> um = {
+            {'a', 1},
+            {'b', 2},
+            {'c', 3},
+            {'a', 4},
+            {'e', 5}
+    };
+    auto it = um.find('a');
+    while (it != um.end()) {
+            auto it = um.find('a');
+            cout << "Iterator points to " << it->first
+                << " = " << it->second << endl;
+    }
+    
+    
+    return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

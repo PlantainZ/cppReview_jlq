@@ -76,18 +76,59 @@ public:
         //s[start,end) 前面包含 后面不包含
         int start(0), end(0), length(0), result(0);
         int sSize = int(s.size());
-        unordered_map<char, int> hash;
+        unordered_map<char, int> hash; // 注意，key是char, val是int
+        
+        while (end < sSize)
+        {
+            char tmpChar = s[end];
+            //仅当s[start,end) 中存在s[end]时更新start
+
+            if (hash.find(tmpChar) != hash.end() && hash[tmpChar] >= start) 
+            {// 当前查找字符是存在的。（不存在才会返回hash.end()），而且序号 >= start游标。 
+             // unordered_map::find() 只会返回从头到尾找到的第一个元素。无论循环多少次都只返回在最前头的那个元素！
+
+                start = hash[tmpChar] + 1; // start游标放到 排最前头的重复字符 +1 处
+                length = end - start; // 修改长度
+            }
+            hash[tmpChar] = end; // 写上下标
+
+            end++;
+            length++;
+            result = max(result, length);
+        }
+        return result;
+    }
+};
+
+
+
+// 3. 数组（桶）优化========================================================
+class Solution
+{
+public:
+    int lengthOfLongestSubstring(string s)
+    {
+        //s[start,end) 前面包含 后面不包含
+        int start(0), end(0), length(0), result(0);
+        int sSize = int(s.size());
+        vector<int> vec(128, -1);
+
+        /* 特别的：桶要点
+            vec(26):用于字母'a' - 'z'或其大写
+            vec(128):用于标准ASCII码
+            vec(256)：用于扩展ASCII码
+        */
 
         while (end < sSize)
         {
             char tmpChar = s[end];
             //仅当s[start,end) 中存在s[end]时更新start
-            if (hash.find(tmpChar) != hash.end() && hash[tmpChar] >= start)
+            if (vec[int(tmpChar)] >= start)
             {
-                start = hash[tmpChar] + 1;
+                start = vec[int(tmpChar)] + 1;
                 length = end - start;
             }
-            hash[tmpChar] = end;
+            vec[int(tmpChar)] = end; // 让桶[字符对应的ASCII码]=其在字符串中的游标。。
 
             end++;
             length++;
