@@ -69,5 +69,8 @@
     <ClCompile Include="medium_03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="medium_05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
